@@ -53,7 +53,7 @@ class FixedNavbarExample extends React.Component {
                             </MDBCollapse>
                         </MDBNavbar>
                     </header>
-                    <MDBContainer className="mt-5 pt-5">
+                    <MDBContainer className="mt-5 pt-5" fluid>
                         <Switch>
                             <Route path="/agents">
                                 <Agents />
